@@ -1,0 +1,41 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #f8fafc;
+  color: #111827;
+}
+
+.content {
+  max-width: 700px;
+  text-align: center;
+}
+
+.label {
+  margin-bottom: 16px;
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(42px, 8vw, 72px);
+}
+
+h2 {
+  margin: 16px 0;
+  color: #0f766e;
+  font-size: clamp(22px, 4vw, 32px);
+}
+
+.message {
+  margin: 0 auto;
+  max-width: 550px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #475569;
+}
